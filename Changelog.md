@@ -41,8 +41,10 @@ Although the chat was never enabled per default and was marked as experimental, 
 
 ## Refactor
 * Fix order-dependent jasmine test failures and switch to random order [#8333](https://github.com/diaspora/diaspora/pull/8333)
-* Get rid of some uses of "execute_script" in feature specs [#8331](https://github.com/diaspora/diaspora/pull/8331)
+* Get rid of some uses of "execute\_script" in feature specs [#8331](https://github.com/diaspora/diaspora/pull/8331)
 * Fix deprecation warnings for sidekiq 7.0 [#8359](https://github.com/diaspora/diaspora/pull/8359)
+* Remove entypo-rails dependency to prepare for rails 6 [#8361](https://github.com/diaspora/diaspora/pull/8361)
+* Remove compass-rails dependency which is not supported anymore [#8362](https://github.com/diaspora/diaspora/pull/8362)
 
 ## Bug fixes
 
