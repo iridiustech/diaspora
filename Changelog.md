@@ -57,6 +57,8 @@ We use yarn to install the frontend dependencies now, so you need to have that i
 * Upgrade to rails 6.1 [#8366](https://github.com/diaspora/diaspora/pull/8366)
 * Update the suggested Ruby version to 2.7. If you run into trouble during the update and you followed our installation guides, run `rvm install 2.7`. [#8366](https://github.com/diaspora/diaspora/pull/8366)
 * Upgrade to bundler 2 [#8366](https://github.com/diaspora/diaspora/pull/8366)
+* Stop checking `/.well-known/host-meta`, check for `/.well-known/nodeinfo` instead [#8377](https://github.com/diaspora/diaspora/pull/8377)
+* Handle NodeInfo timeouts gracefully [#8380](https://github.com/diaspora/diaspora/pull/8380)
 
 ## Bug fixes
 * Fix that no mails were sent after photo export [#8365](https://github.com/diaspora/diaspora/pull/8365)
@@ -64,6 +66,7 @@ We use yarn to install the frontend dependencies now, so you need to have that i
 
 ## Features
 * Render posts and comments as HTML in HTML mails [#8365](https://github.com/diaspora/diaspora/pull/8365)
+* Add NodeInfo 2.1 support and also read newer versions of NodeInfo [#8379](https://github.com/diaspora/diaspora/pull/8379)
 
 # 0.7.17.0
 
