@@ -48,6 +48,7 @@ We use yarn to install the frontend dependencies now, so you need to have that i
 * Replace `unicorn` with `puma` [#8392](https://github.com/diaspora/diaspora/pull/8392)
 * Drop `strip_exif` flag and always remove exif data from uploaded images [#8417](https://github.com/diaspora/diaspora/pull/8417)
 * Replace `apparition` with `cuprite` [#8418](https://github.com/diaspora/diaspora/pull/8418)
+* Remove `i18n-inflector-rails` for translations [#8420](https://github.com/diaspora/diaspora/pull/8420)
 
 ## Bug fixes
 * Fix multiple photos upload progress bar [#7655](https://github.com/diaspora/diaspora/pull/7655)
@@ -58,6 +59,7 @@ We use yarn to install the frontend dependencies now, so you need to have that i
 * Escape mentions before markdown parsing in mobile UI [#8398](https://github.com/diaspora/diaspora/pull/8398)
 * Cleanup duplicate pods in database [#8403](https://github.com/diaspora/diaspora/pull/8403)
 * Fix scrolling issue after closing photo viewer on photos page [#8404](https://github.com/diaspora/diaspora/pull/8404)
+* Filter unicode emojis from email headers [#8421](https://github.com/diaspora/diaspora/pull/8421)
 
 ## Features
 * Add client-side cropping of profile image uploads [#7581](https://github.com/diaspora/diaspora/pull/7581)
