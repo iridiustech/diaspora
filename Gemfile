@@ -42,8 +42,8 @@ gem "simple_captcha2", "0.5.0", require: "simple_captcha"
 
 # Background processing
 
-gem "redis-client", "0.14.1"
-gem "sidekiq", "7.1.2"
+gem "redis", "4.8.1"
+gem "sidekiq", "6.5.9"
 
 # Scheduled processing
 
@@ -207,6 +207,8 @@ group :development do
   gem "pronto-scss",    "0.11.0", require: false
   gem "rubocop",        "1.53.1", require: false
   gem "rubocop-rails",  "2.20.2", require: false
+
+  gem "faraday-retry", require: false # used by pronto/octokit
 
   # Debugging
   gem "pry"
