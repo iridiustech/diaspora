@@ -1,6 +1,0 @@
-version: "1"
-rules:
-  - base: develop
-    upstream: diaspora:develop
-    mergeMethod: merge
-    mergeUnstable: true
